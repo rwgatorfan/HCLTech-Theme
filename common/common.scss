@@ -21,9 +21,9 @@
   margin-bottom: 0;
 
   .title {
-    float: right;
-    margin-left: 24px;
-    margin-right: 0;
+    float: left;
+    margin-left: 0;
+    margin-right: 24px;
     a {
       color: var(--secondary);
     }
@@ -31,14 +31,14 @@
       color: var(--secondary);
     }
     .rtl & {
-      float: left;
-      margin-right: 24px;
-      margin-left: 0;
+      float: right;
+      margin-right: 0;
+      margin-left: 24px;
     }
   }
   nav.links {
-      float: right;
-      margin-left: 24px;
-      margin-right: 0;
+      float: left;
+      margin-left: 0;
+      margin-right: 24px;
   }
 }
