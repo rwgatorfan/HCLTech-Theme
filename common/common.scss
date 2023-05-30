@@ -14,6 +14,26 @@
     font: HCLRoobertFont;
 }
 
-header.b-header.clearfix div.contents.clearfix {
-    align-items: right;
+.b-header {
+  width: 100%;
+  background-color: black;
+  height: 48px;
+  margin-bottom: 0;
+
+  .title {
+    float: right;
+    margin-left: 24px;
+    margin-right: 0;
+    a {
+      color: var(--secondary);
+    }
+    &:visited {
+      color: var(--secondary);
+    }
+    .rtl & {
+      float: left;
+      margin-right: 24px;
+      margin-left: 0;
+    }
+  }
 }
